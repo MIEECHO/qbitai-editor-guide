@@ -35,7 +35,7 @@ function markdownInline(text = "") {
   return value;
 }
 
-function renderText(items = []) {
+function renderText(items = [], data = state.data) {
   let html = "";
   let list = [];
 
@@ -56,6 +56,8 @@ function renderText(items = []) {
       html += `<h3 class="content-heading">${markdownInline(item.text)}</h3>`;
     } else if (item.type === "subheading") {
       html += `<h4 class="content-subheading">${markdownInline(item.text)}</h4>`;
+    } else if (item.type === "template") {
+      html += buildTemplateBox(data);
     } else {
       html += `<p>${markdownInline(item.text)}</p>`;
     }
@@ -75,10 +77,9 @@ function buildTemplateBox(data) {
 }
 
 function buildSubPanel(subsection, index, moduleIndex, data) {
-  const template = subsection.title.includes("如何写提纲") ? buildTemplateBox(data) : "";
   return `
     <div class="tab-panel${index === 0 ? " active" : ""}" data-panel="${moduleIndex}-${index}">
-      <div class="text-block">${renderText(subsection.body)}${template}</div>
+      <div class="text-block">${renderText(subsection.body, data)}</div>
     </div>
   `;
 }
@@ -129,7 +130,7 @@ function buildModule(moduleData, moduleIndex, data) {
       <button class="collapse-btn" type="button">收起⌃</button>
     </header>
     <div class="module-body">
-      <div class="text-block">${timeline}${renderText(moduleData.body)}</div>
+      <div class="text-block">${timeline}${renderText(moduleData.body, data)}</div>
       ${moduleData.children?.length ? `<div class="tabs">${childTabs}</div>${panels}` : ""}
     </div>
   `;

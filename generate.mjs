@@ -129,6 +129,22 @@ function updateTitleGuide(module, titleBody) {
   if (titleSkill) titleSkill.body = titleBody;
 }
 
+function updateOutlineTemplate(module) {
+  if (!module || module.title !== "六、日常工作流程") return;
+  const outline = module.children?.find((item) => item.title === "1、如何写提纲");
+  if (!outline) return;
+
+  const start = outline.body.findIndex((item) => item.text === "标题方向：");
+  const end = outline.body.findIndex((item) => item.text === "……");
+  if (start === -1 || end === -1 || end < start) return;
+
+  outline.body = [
+    ...outline.body.slice(0, start),
+    { type: "template", text: "提纲模板" },
+    ...outline.body.slice(end + 1),
+  ];
+}
+
 const doc = parseMarkdown(source);
 const allText = doc.sections.map(flattenText).join(" ");
 const guide = {
@@ -211,6 +227,11 @@ if (fs.existsSync(titleGuidePath)) {
   for (const module of guide.modules || []) updateTitleGuide(module, titleBody);
   guide.stats.words = JSON.stringify(guide.modules).length;
 }
+
+for (const section of guide.sections || []) {
+  for (const child of section.children || []) updateOutlineTemplate(child);
+}
+for (const module of guide.modules || []) updateOutlineTemplate(module);
 
 fs.mkdirSync(path.dirname(outPath), { recursive: true });
 fs.writeFileSync(outPath, `${JSON.stringify(guide, null, 2)}\n`);
