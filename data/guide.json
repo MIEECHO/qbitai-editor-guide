@@ -125,23 +125,15 @@
             },
             {
               "type": "p",
-              "text": "这里提供几份资料和参考书籍："
-            },
-            {
-              "type": "p",
-              "text": "[新手指南\\-资料篇 v 0\\_2](https://jkhbjkhb.feishu.cn/docx/doxcnqXhYmpGPST6K9T5mOk87zf)"
-            },
-            {
-              "type": "p",
-              "text": "[新手指南\\-知识要点篇v 0\\_3](https://jkhbjkhb.feishu.cn/docx/doxcn8pdGtkgktZX3fmNraHyR0e)"
-            },
-            {
-              "type": "p",
-              "text": "p\\.s\\. 多读书多看报，对于编辑/记者来说，对信息的“嗅觉”非常重要。书单推荐："
+              "text": "这里提供一份推荐书单："
             },
             {
               "type": "p",
               "text": "[新手入门\\-阅读书目](https://jkhbjkhb.feishu.cn/docx/doxcnA2t13dVuwM3cl2iNC50VCB)"
+            },
+            {
+              "type": "p",
+              "text": "p\\.s\\. 多读书多看报，对于编辑/记者来说，对信息的“嗅觉”非常重要。"
             }
           ],
           "children": [
@@ -150,19 +142,11 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "**台大李宏毅：李宏毅****机器学习**"
+                  "text": "**台大李宏毅：生成式人工智能与机器学习导论2025**"
                 },
                 {
                   "type": "p",
-                  "text": "B站：[https://www\\.bilibili\\.com/video/av10590361](https://www.bilibili.com/video/av10590361)"
-                },
-                {
-                  "type": "p",
-                  "text": "官网：[http://speech\\.ee\\.ntu\\.edu\\.tw/\\~tlkagk/courses\\.html](http://speech.ee.ntu.edu.tw/~tlkagk/courses.html)"
-                },
-                {
-                  "type": "p",
-                  "text": "（目的是了解AI基础知识，在写AI相关稿件的时候上手更迅速）"
+                  "text": "https://www.youtube.com/playlist?list=PLJV_el3uVTsMMGi5kbnKP5DrDHZpTX0jT"
                 },
                 {
                   "type": "p",
@@ -596,7 +580,7 @@
                 },
                 {
                   "type": "subheading",
-                  "text": "7) 剑走偏锋，正话反说"
+                  "text": "7\\) 剑走偏锋，正话反说"
                 },
                 {
                   "type": "p",
@@ -1158,23 +1142,15 @@
         },
         {
           "type": "p",
-          "text": "这里提供几份资料和参考书籍："
-        },
-        {
-          "type": "p",
-          "text": "[新手指南\\-资料篇 v 0\\_2](https://jkhbjkhb.feishu.cn/docx/doxcnqXhYmpGPST6K9T5mOk87zf)"
-        },
-        {
-          "type": "p",
-          "text": "[新手指南\\-知识要点篇v 0\\_3](https://jkhbjkhb.feishu.cn/docx/doxcn8pdGtkgktZX3fmNraHyR0e)"
-        },
-        {
-          "type": "p",
-          "text": "p\\.s\\. 多读书多看报，对于编辑/记者来说，对信息的“嗅觉”非常重要。书单推荐："
+          "text": "这里提供一份推荐书单："
         },
         {
           "type": "p",
           "text": "[新手入门\\-阅读书目](https://jkhbjkhb.feishu.cn/docx/doxcnA2t13dVuwM3cl2iNC50VCB)"
+        },
+        {
+          "type": "p",
+          "text": "p\\.s\\. 多读书多看报，对于编辑/记者来说，对信息的“嗅觉”非常重要。"
         }
       ],
       "children": [
@@ -1183,19 +1159,11 @@
           "body": [
             {
               "type": "p",
-              "text": "**台大李宏毅：李宏毅****机器学习**"
+              "text": "**台大李宏毅：生成式人工智能与机器学习导论2025**"
             },
             {
               "type": "p",
-              "text": "B站：[https://www\\.bilibili\\.com/video/av10590361](https://www.bilibili.com/video/av10590361)"
-            },
-            {
-              "type": "p",
-              "text": "官网：[http://speech\\.ee\\.ntu\\.edu\\.tw/\\~tlkagk/courses\\.html](http://speech.ee.ntu.edu.tw/~tlkagk/courses.html)"
-            },
-            {
-              "type": "p",
-              "text": "（目的是了解AI基础知识，在写AI相关稿件的时候上手更迅速）"
+              "text": "https://www.youtube.com/playlist?list=PLJV_el3uVTsMMGi5kbnKP5DrDHZpTX0jT"
             },
             {
               "type": "p",
@@ -1630,7 +1598,7 @@
             },
             {
               "type": "subheading",
-              "text": "7) 剑走偏锋，正话反说"
+              "text": "7\\) 剑走偏锋，正话反说"
             },
             {
               "type": "p",
@@ -2081,647 +2049,8 @@
       "parent": "工作方法"
     }
   ],
-  "basics": {
-    "title": "基本理念",
-    "lead": [],
-    "children": [
-      {
-        "title": "一、我们的定位",
-        "body": [
-          {
-            "type": "p",
-            "text": "量子位目前是人工智能第一垂直媒体，TOP5前沿科技媒体。"
-          },
-          {
-            "type": "p",
-            "text": "立足于「人工智能」这个核心，有关前沿科技的一切我们都关心，包括但不限于：自动驾驶、芯片、量子计算、生物医药……"
-          },
-          {
-            "type": "p",
-            "text": "总之，对于这个世界上最硬核、最有趣的那些科技/科学进展，我们都充满好奇。"
-          },
-          {
-            "type": "p",
-            "text": "而我们的读者，同样如此：量子位目前的用户**以AI行业从业者以及技术人群为主，其中不乏技术/行业大牛。**"
-          },
-          {
-            "type": "p",
-            "text": "简单翻译一下，就是**硬核直男**。"
-          },
-          {
-            "type": "p",
-            "text": "不过，在追逐硬核科技的同时，我们也一直在寻求科技内容的出圈之道，希望我们的文章能影响到更多对科技感兴趣的人群。"
-          },
-          {
-            "type": "p",
-            "text": "所以，我们的文章呈现出的风格基本是：**懂技术，说人话**。"
-          }
-        ],
-        "children": []
-      },
-      {
-        "title": "二、所以，量子位的编辑应该具备哪些技能？",
-        "body": [
-          {
-            "type": "li",
-            "text": "对前沿技术足够好奇"
-          },
-          {
-            "type": "li",
-            "text": "具备快速、持续学习的能力，能从0到1快速把握新鲜技术的核心信息"
-          },
-          {
-            "type": "li",
-            "text": "能把接收到的信息消化吸收，以简单清晰的方式输出给读者，让读者能更轻松地接触前沿科技"
-          }
-        ],
-        "children": []
-      },
-      {
-        "title": "三、工作原则",
-        "body": [
-          {
-            "type": "p",
-            "text": "团队风格方面，量子位编辑部的特点是**目标导向，注重效率，就事论事**。"
-          },
-          {
-            "type": "p",
-            "text": "在个人能力之外，为了能更好地跟团队打配合，希望你在公司能够执行量子位的一些基本价值判断："
-          },
-          {
-            "type": "p",
-            "text": "功劳第一，苦劳不计。"
-          },
-          {
-            "type": "p",
-            "text": "高效工作，可信可依。"
-          },
-          {
-            "type": "p",
-            "text": "坦率沟通，只对问题。"
-          },
-          {
-            "type": "p",
-            "text": "加强学习，多读书籍。"
-          },
-          {
-            "type": "p",
-            "text": "锻炼身体，充分休息。"
-          },
-          {
-            "type": "p",
-            "text": "具体到日常工作中，为了提高工作效率，我们有一套**总结→形成套路→快速复用**的工作方法。"
-          },
-          {
-            "type": "p",
-            "text": "接下来，咱们展开看看这些套路，也希望你在以后的工作中，善于发现问题，总结问题，帮助自己和团队持续迭代升级。"
-          }
-        ],
-        "children": []
-      }
-    ]
-  },
-  "methods": {
-    "title": "工作方法",
-    "lead": [],
-    "children": [
-      {
-        "title": "四、前期准备",
-        "body": [
-          {
-            "type": "p",
-            "text": "刚才说到，跟前沿科技相关的一切，我们都关心。不过看家本领，还是人工智能。"
-          },
-          {
-            "type": "p",
-            "text": "所以，无论你是否具备基础，人工智能领域的一些基础知识，希望你能快速掌握起来。"
-          },
-          {
-            "type": "p",
-            "text": "这里提供几份资料和参考书籍："
-          },
-          {
-            "type": "p",
-            "text": "[新手指南\\-资料篇 v 0\\_2](https://jkhbjkhb.feishu.cn/docx/doxcnqXhYmpGPST6K9T5mOk87zf)"
-          },
-          {
-            "type": "p",
-            "text": "[新手指南\\-知识要点篇v 0\\_3](https://jkhbjkhb.feishu.cn/docx/doxcn8pdGtkgktZX3fmNraHyR0e)"
-          },
-          {
-            "type": "p",
-            "text": "p\\.s\\. 多读书多看报，对于编辑/记者来说，对信息的“嗅觉”非常重要。书单推荐："
-          },
-          {
-            "type": "p",
-            "text": "[新手入门\\-阅读书目](https://jkhbjkhb.feishu.cn/docx/doxcnA2t13dVuwM3cl2iNC50VCB)"
-          }
-        ],
-        "children": [
-          {
-            "title": "重点必看",
-            "body": [
-              {
-                "type": "p",
-                "text": "**台大李宏毅：李宏毅****机器学习**"
-              },
-              {
-                "type": "p",
-                "text": "B站：[https://www\\.bilibili\\.com/video/av10590361](https://www.bilibili.com/video/av10590361)"
-              },
-              {
-                "type": "p",
-                "text": "官网：[http://speech\\.ee\\.ntu\\.edu\\.tw/\\~tlkagk/courses\\.html](http://speech.ee.ntu.edu.tw/~tlkagk/courses.html)"
-              },
-              {
-                "type": "p",
-                "text": "（目的是了解AI基础知识，在写AI相关稿件的时候上手更迅速）"
-              },
-              {
-                "type": "p",
-                "text": "《人工智能简史》（尼克 著）"
-              },
-              {
-                "type": "p",
-                "text": "《人工智能》（李开复 王咏刚）"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "五、写作基础",
-        "body": [
-          {
-            "type": "p",
-            "text": "**Q：我们要写什么样的文章？**"
-          },
-          {
-            "type": "p",
-            "text": "A：把硬核的科技进展、科技行业动态**用人话**分享给读者。"
-          },
-          {
-            "type": "p",
-            "text": "直白一点说，我们发布在公众号上的文章，应该是让读者能在碎片时间（坐地铁、吃饭……）轻松读下去的文字产品。"
-          },
-          {
-            "type": "p",
-            "text": "所以，在保证信息准确有根据的基础之上，要尽量让文章更容易读。"
-          }
-        ],
-        "children": [
-          {
-            "title": "1、基本原则：",
-            "body": [
-              {
-                "type": "p",
-                "text": "文章通常采用倒三角结构，即**重要、劲爆的信息突出前置**，没必要的垫话少说"
-              },
-              {
-                "type": "p",
-                "text": "一个开头修改的案例，可以感受一下："
-              },
-              {
-                "type": "p",
-                "text": "**初****版：**"
-              },
-              {
-                "type": "p",
-                "text": "爆肝两年，这位广西小哥手搓一个CPU——"
-              },
-              {
-                "type": "p",
-                "text": "**从零开始纯手工制作、软硬件全自主研发**，大概画风是这样的\\~"
-              },
-              {
-                "type": "p",
-                "text": "【图片】"
-              },
-              {
-                "type": "p",
-                "text": "整个CPU共计两万多个器件，10万多个焊点，全都是一个个手动组装上去的。光是看这些密密麻麻的线和接口，就已经头大了有没有！"
-              },
-              {
-                "type": "p",
-                "text": "如此硬核的视频一出，网友们纷纷赶来关注，佩服他的勇气和毅力。还有网友建议下一次手搓光刻机，这样CPU效率会提升一大截。*（Doge）*"
-              },
-              {
-                "type": "p",
-                "text": "此前就被震撼过的粉丝闻声而来：**神又发视频了！他活了！**"
-              },
-              {
-                "type": "p",
-                "text": "嗯，毕竟据他上一次更新视频，已经过了一年半之久了。"
-              },
-              {
-                "type": "p",
-                "text": "所以现在千呼万唤始出来，这个纯手工自研CPU的终极形态到底是什么？"
-              },
-              {
-                "type": "p",
-                "text": "**修改版：**"
-              },
-              {
-                "type": "p",
-                "text": "![Image](https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=ZGY1OGRiYTYyYjUzNDY2NjZiNjQ0NTljZWNiOGM1MGRfMjY3MTI2ZGM0NmY2MzAxNTM0ODA0YjJjOTEyNGVmY2NfSUQ6NzIwODc4OTU2Mzc0NDk3NjkwMF8xNzgxMDgzODM1OjE3ODExNzAyMzVfVjM)"
-              }
-            ]
-          },
-          {
-            "title": "2、「易读性」实用技巧",
-            "body": [
-              {
-                "type": "p",
-                "text": "a\\. 尽量用短句。宁可一句话一行，也不要一段超过半个屏幕（在手机上看）。"
-              },
-              {
-                "type": "p",
-                "text": "b\\. 讲大白话，不要大面积用文绉绉的书面语。"
-              },
-              {
-                "type": "p",
-                "text": "c\\. 适当加入表情包和各种流行梗。可以参考萌娘百科：[https://zh\\.moegirl\\.org/zh\\-hans/Mainpage](https://zh.moegirl.org/zh-hans/Mainpage)"
-              },
-              {
-                "type": "p",
-                "text": "d\\. 善用图片。尽量不要出现2屏幕以上连着的文字（指手机屏幕）。以及图片也是影响文章节奏的一大要素，可以琢磨一下插入的位置。"
-              }
-            ]
-          },
-          {
-            "title": "3、取标题技巧",
-            "body": [
-              {
-                "type": "p",
-                "text": "对于微信公众号文章来说，适度的标题党是必要的，好的标题是文章成功的一大半，差的标题注定要凉凉"
-              },
-              {
-                "type": "p",
-                "text": "[如何起标题](https://jkhbjkhb.feishu.cn/wiki/PocpwVctSiQjgTkW47WcH6RJn6d)"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "六、日常工作流程",
-        "body": [
-          {
-            "type": "p",
-            "text": "我们的日常工作从早晨8:30开始。公众号主线一般在中午推送。"
-          },
-          {
-            "type": "p",
-            "text": "8:30之前，选题老师会在「量子位公会」微信群中分配当天任务，请注意回复查收"
-          },
-          {
-            "type": "p",
-            "text": "时间线："
-          },
-          {
-            "type": "p",
-            "text": "8:30 开工"
-          },
-          {
-            "type": "p",
-            "text": "9:30 交提纲（@当天带班老师审核）"
-          },
-          {
-            "type": "p",
-            "text": "11:30 交初稿（@当天带班老师、主编审稿）"
-          },
-          {
-            "type": "p",
-            "text": "这里有一份编辑指南，其中提到的工具请尽快在你的电脑上配置好，工欲善其事必先利其器嘛\\~"
-          },
-          {
-            "type": "p",
-            "text": "（有任何不明白的地方都可以及时问mentor和其他同事）"
-          },
-          {
-            "type": "p",
-            "text": "[编辑指南（2023年版）](https://jkhbjkhb.feishu.cn/docx/doxcntq3TsD96LHTH99MD74Morb?from=from_copylink)"
-          }
-        ],
-        "children": [
-          {
-            "title": "1、如何写提纲",
-            "body": [
-              {
-                "type": "p",
-                "text": "为了保证稿件方向不跑偏，提高工作效率，在正式动笔写初稿之前，需要先交提纲到「量子位编辑部」微信群，并@当天选题老师确认"
-              },
-              {
-                "type": "p",
-                "text": "**提纲的基本要求是：****有一句话主题（标题方向），对开头进行初步设计，体现整个文章的框架****，小标题概括段落内容**"
-              },
-              {
-                "type": "p",
-                "text": "结构大概长这样："
-              },
-              {
-                "type": "p",
-                "text": "标题方向："
-              },
-              {
-                "type": "p",
-                "text": "XXXX"
-              },
-              {
-                "type": "p",
-                "text": "\\#\\#开头"
-              },
-              {
-                "type": "p",
-                "text": "1、重点信息1"
-              },
-              {
-                "type": "p",
-                "text": "2、重点信息2"
-              },
-              {
-                "type": "p",
-                "text": "3、重点信息3"
-              },
-              {
-                "type": "p",
-                "text": "\\#\\#第一个小标题"
-              },
-              {
-                "type": "p",
-                "text": "1、具体内容1"
-              },
-              {
-                "type": "p",
-                "text": "2、具体内容2"
-              },
-              {
-                "type": "p",
-                "text": "3、具体内容3"
-              },
-              {
-                "type": "p",
-                "text": "\\#\\#第二个小标题"
-              },
-              {
-                "type": "p",
-                "text": "4、具体内容4"
-              },
-              {
-                "type": "p",
-                "text": "5、具体内容5"
-              },
-              {
-                "type": "p",
-                "text": "6、具体内容6"
-              },
-              {
-                "type": "p",
-                "text": "……"
-              },
-              {
-                "type": "p",
-                "text": "还是举个🌰（以下示例是一个较为详细的提纲，实际操作时可以视时间进行简化，提纲主要是反映方向和主体信息，越早给越好，不用抠细节）"
-              },
-              {
-                "type": "p",
-                "text": "选题是："
-              },
-              {
-                "type": "p",
-                "text": "一个工程师把Twitter搞垮了，马斯克：改了个API，代码堆栈全部要重写（→这是选题老师给的标题，参考即可）"
-              },
-              {
-                "type": "p",
-                "text": "https://www\\.platformer\\.news/p/how\\-a\\-single\\-engineer\\-brought\\-down"
-              },
-              {
-                "type": "p",
-                "text": "标题方向："
-              },
-              {
-                "type": "p",
-                "text": "工程师一人之力搞崩推特，马斯克：只是改了个API"
-              },
-              {
-                "type": "p",
-                "text": "\\#\\#开头"
-              },
-              {
-                "type": "p",
-                "text": "“马斯克气疯了”！"
-              },
-              {
-                "type": "p",
-                "text": "就在今天，推特又双叒崩溃了，图片和任何链接都打不开。"
-              },
-              {
-                "type": "p",
-                "text": "而据马斯克自己的说法，原因只是“API的一个小改动”。"
-              },
-              {
-                "type": "p",
-                "text": "在网友们看来，推特的现场是酱婶的："
-              },
-              {
-                "type": "p",
-                "text": "【火灾现场\\.gif】"
-              },
-              {
-                "type": "p",
-                "text": "而吃瓜群众们的心情，则是："
-              },
-              {
-                "type": "p",
-                "text": "【表情包】"
-              },
-              {
-                "type": "p",
-                "text": "并非网友们太过刻薄，只是这事儿吧，确实有点孽力回馈的意思。"
-              },
-              {
-                "type": "p",
-                "text": "据Platformer消息，出现问题的是第三方客户端访问推特的API。就在2月初，马斯克决定不再免费开放这一API，要改成收费模式。"
-              },
-              {
-                "type": "p",
-                "text": "那这代码不就得跟着改嘛，然鹅，负责这事儿的竟然只有一位工程师。"
-              },
-              {
-                "type": "p",
-                "text": "The Verge：马斯克的大幅裁员，导致如此重大的项目只有一个人参与。"
-              },
-              {
-                "type": "p",
-                "text": "【网友评论】"
-              },
-              {
-                "type": "p",
-                "text": "马斯克发火：我看代码得重写"
-              },
-              {
-                "type": "p",
-                "text": "\\#\\#一个工程师搞崩推特"
-              },
-              {
-                "type": "p",
-                "text": "推特崩溃：显示错误信息，显示不了图片"
-              },
-              {
-                "type": "p",
-                "text": "内部员工透露：负责API的工程师进行了一次“错误的配置更改”，但“基本上破坏了推特API”"
-              },
-              {
-                "type": "p",
-                "text": "推特内部Slack上工程师们都在疯狂救火"
-              },
-              {
-                "type": "p",
-                "text": "\\#\\#变着花样崩的推特"
-              },
-              {
-                "type": "p",
-                "text": "推特今年已经大规模崩过6次了：【时间线展开】"
-              },
-              {
-                "type": "p",
-                "text": "连外媒都说，等着吧，下一次崩溃估计又在路上了"
-              },
-              {
-                "type": "p",
-                "text": "为什么会这样？都赖马斯克把人都裁了。"
-              },
-              {
-                "type": "p",
-                "text": "细数马斯克收购以及最近的抠门行为，包括把办公室设备卖给员工"
-              }
-            ]
-          },
-          {
-            "title": "2、一些稿件提纲快速延展思路（灵活取用）",
-            "body": [
-              {
-                "type": "li",
-                "text": "人物（职务变动）稿：人物去向\\+人物简介\\+曾在岗位变动情况"
-              },
-              {
-                "type": "li",
-                "text": "论文稿：核心亮点/效果提取\\+技术原理\\+实验结果展示\\+作者介绍"
-              },
-              {
-                "type": "li",
-                "text": "热点消息传递：一句话概括\\+消息热度\\+网友评论\\+事件细节延展\\+前情提要"
-              },
-              {
-                "type": "li",
-                "text": "发布会：亮点总结\\+网友评论\\+发布会核心内容呈现"
-              }
-            ]
-          },
-          {
-            "title": "3、如何快速读论文",
-            "body": [
-              {
-                "type": "p",
-                "text": "[论文怎么读](https://jkhbjkhb.feishu.cn/docx/doxcnlGkmJmxPkEJkKNRqhXI8Ve)"
-              }
-            ]
-          },
-          {
-            "title": "4、其他常用技巧",
-            "body": [
-              {
-                "type": "p",
-                "text": "https://jkhbjkhb\\.feishu\\.cn/drive/folder/fldcnTxl6nQsEj9gUsWEXeSuydd"
-              },
-              {
-                "type": "p",
-                "text": "更多学习资料，可以在这里挖掘："
-              },
-              {
-                "type": "p",
-                "text": "知识库[首页](https://jkhbjkhb.feishu.cn/wiki/wikcnT4LIVFJC1xipWCER9Hkpkf)"
-              }
-            ]
-          },
-          {
-            "title": "5、公众号后台贴稿注意事项",
-            "body": [
-              {
-                "type": "li",
-                "text": "不要随便进**主线、公共线**改稿，进线先在群里打招呼"
-              },
-              {
-                "type": "li",
-                "text": "文章摘要不与标题信息重复"
-              },
-              {
-                "type": "p",
-                "text": "头图制作模板："
-              },
-              {
-                "type": "p",
-                "text": "\\[头图模版20240110\\-b\\.psd\\]"
-              },
-              {
-                "type": "p",
-                "text": "\\[小图模版20220518\\.psd\\]"
-              }
-            ]
-          },
-          {
-            "title": "6、发稿前务必检查事项",
-            "body": [
-              {
-                "type": "li",
-                "text": "❗️❗️❗️所有文章**不要放任何指向外部的跳转链接、二维码，任何可以跳转的形式都不采用**"
-              },
-              {
-                "type": "p",
-                "text": "（目前论文链接可以放）"
-              },
-              {
-                "type": "li",
-                "text": "所有图片、编辑图片所使用的文字均有版权"
-              }
-            ]
-          },
-          {
-            "title": "7、务必注意",
-            "body": [
-              {
-                "type": "li",
-                "text": "**严禁任何抄袭**。特别是对同行的抄袭。需要引用的必须注明出处，不能直接照搬。"
-              },
-              {
-                "type": "li",
-                "text": "表达相同意思时，尽量用自己的方式、风格。用AI生成的内容，尽可能要在此基础上修改、调整，化用为主。尽可能训练自己风格的AI。"
-              },
-              {
-                "type": "li",
-                "text": "外媒翻译内容，需要找到源头，**切记不要用二道贩子的中文翻译**，更不能直接抄、洗。"
-              },
-              {
-                "type": "li",
-                "text": "若发现别人抄袭我们，不用撕不要闹，只会白白浪费时间和傻X较长短，行业里真正体面的人屈指可数。正确的做法是保留好证据，默默存档，防止哪一天恶人发疯忽然咬上来。"
-              },
-              {
-                "type": "p",
-                "text": "以上，祝你在量子位编辑部有所收获\\~"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
   "outlineTemplate": "标题方向：\nXXXX\n\n## 开头\n1、重点信息1\n2、重点信息2\n3、重点信息3\n\n## 第一个小标题\n1、具体内容1\n2、具体内容2\n3、具体内容3\n\n## 第二个小标题\n4、具体内容4\n5、具体内容5\n6、具体内容6",
   "sourceStamp": "2026-06-11",
-  "stats": {
-    "sections": 2,
-    "modules": 6,
-    "words": 13484
-  },
   "sourceDocument": "编辑部新手攻略（2023，更新中）.md",
   "heroFocus": [
     "理解量子位定位：懂技术，说人话",
@@ -2761,5 +2090,10 @@
       "description": "更多内部学习资料与规范沉淀",
       "url": "https://jkhbjkhb.feishu.cn/wiki/wikcnT4LIVFJC1xipWCER9Hkpkf"
     }
-  ]
+  ],
+  "stats": {
+    "sections": 2,
+    "modules": 6,
+    "words": 13064
+  }
 }
