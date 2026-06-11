@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const sourcePath = "/Users/yuyang/Desktop/编辑部新手攻略（2023，更新中）.md";
+const titleGuidePath = "/Users/yuyang/Desktop/如何起标题.md";
 const outPath = path.join(process.cwd(), "data", "guide.json");
 const source = fs.readFileSync(sourcePath, "utf8");
 
@@ -85,6 +86,49 @@ function flattenText(section) {
   return cleanText(parts.join(" "));
 }
 
+function parseTitleGuide(md) {
+  const items = [];
+  const lines = md.replace(/\r\n/g, "\n").split("\n");
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (!line) continue;
+
+    const heading = line.match(/^(#{1,6})\s+(.+)$/);
+    if (heading) {
+      const level = heading[1].length;
+      if (level === 1) continue;
+      items.push({
+        type: level === 2 ? "heading" : "subheading",
+        text: cleanText(heading[2]).replace(/==/g, ""),
+      });
+      continue;
+    }
+
+    const bullet = line.match(/^[-*]\s+(.+)$/);
+    if (bullet) {
+      items.push({ type: "li", text: bullet[1].trim() });
+      continue;
+    }
+
+    items.push({ type: "p", text: line });
+  }
+
+  return [
+    {
+      type: "p",
+      text: "对于微信公众号文章来说，适度的标题党是必要的，好的标题是文章成功的一大半，差的标题注定要凉凉。",
+    },
+    ...items,
+  ];
+}
+
+function updateTitleGuide(module, titleBody) {
+  if (!module || module.title !== "五、写作基础") return;
+  const titleSkill = module.children?.find((item) => item.title === "3、取标题技巧");
+  if (titleSkill) titleSkill.body = titleBody;
+}
+
 const doc = parseMarkdown(source);
 const allText = doc.sections.map(flattenText).join(" ");
 const guide = {
@@ -131,10 +175,26 @@ XXXX
     "外媒翻译找到源头，不用二道贩子中文翻译",
   ],
   resources: [
-    { title: "AI 基础资料", description: "资料篇、知识要点篇与李宏毅机器学习" },
-    { title: "阅读书目", description: "人工智能简史、人工智能等入门书" },
-    { title: "编辑指南", description: "工具配置、贴稿和日常协作规范" },
-    { title: "知识库首页", description: "更多内部学习资料与规范沉淀" },
+    {
+      title: "AI 基础资料",
+      description: "资料篇、知识要点篇与李宏毅机器学习",
+      url: "https://jkhbjkhb.feishu.cn/docx/doxcnqXhYmpGPST6K9T5mOk87zf",
+    },
+    {
+      title: "阅读书目",
+      description: "人工智能简史、人工智能等入门书",
+      url: "https://jkhbjkhb.feishu.cn/docx/doxcnA2t13dVuwM3cl2iNC50VCB",
+    },
+    {
+      title: "编辑指南",
+      description: "工具配置、贴稿和日常协作规范",
+      url: "https://jkhbjkhb.feishu.cn/docx/doxcntq3TsD96LHTH99MD74Morb?from=from_copylink",
+    },
+    {
+      title: "知识库首页",
+      description: "更多内部学习资料与规范沉淀",
+      url: "https://jkhbjkhb.feishu.cn/wiki/wikcnT4LIVFJC1xipWCER9Hkpkf",
+    },
   ],
   stats: {
     sections: doc.sections.length,
@@ -142,6 +202,15 @@ XXXX
     words: allText.length,
   },
 };
+
+if (fs.existsSync(titleGuidePath)) {
+  const titleBody = parseTitleGuide(fs.readFileSync(titleGuidePath, "utf8"));
+  for (const section of guide.sections || []) {
+    for (const child of section.children || []) updateTitleGuide(child, titleBody);
+  }
+  for (const module of guide.modules || []) updateTitleGuide(module, titleBody);
+  guide.stats.words = JSON.stringify(guide.modules).length;
+}
 
 fs.mkdirSync(path.dirname(outPath), { recursive: true });
 fs.writeFileSync(outPath, `${JSON.stringify(guide, null, 2)}\n`);

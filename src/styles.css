@@ -58,42 +58,6 @@
     .brand strong { color: var(--accent); font-size: 22px; }
     .brand span { font-size: 15px; }
 
-    .progress-card {
-      padding: 16px;
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: var(--surface);
-      box-shadow: 0 10px 28px rgba(23, 54, 48, 0.05);
-      margin-bottom: 20px;
-    }
-    .progress-card header {
-      display: flex;
-      justify-content: space-between;
-      gap: 12px;
-      color: var(--muted);
-      font-size: 13px;
-      margin-bottom: 12px;
-    }
-    .progress-value { color: var(--accent); font-weight: 760; }
-    .progress-track {
-      height: 8px;
-      background: #E6ECEA;
-      border-radius: 999px;
-      overflow: hidden;
-    }
-    .progress-fill {
-      width: 0%;
-      height: 100%;
-      background: linear-gradient(90deg, var(--accent), #2BBFA6);
-      border-radius: inherit;
-      transition: width 220ms ease;
-    }
-    .progress-note {
-      margin-top: 10px;
-      font-size: 12px;
-      color: var(--muted);
-    }
-
     .toc {
       display: grid;
       gap: 6px;
@@ -380,6 +344,25 @@
     }
     .text-block li { margin: 8px 0; }
     .text-block strong { color: #0F211D; }
+    .content-heading {
+      margin: 22px 0 10px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      color: var(--text);
+      font-size: 18px;
+      line-height: 1.45;
+    }
+    .content-heading:first-child {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 0;
+    }
+    .content-subheading {
+      margin: 18px 0 8px;
+      color: var(--accent-dark);
+      font-size: 15px;
+      line-height: 1.45;
+    }
     .text-block pre {
       white-space: pre-wrap;
       padding: 14px;
@@ -484,12 +467,22 @@
       margin-top: 14px;
     }
     .resource-card {
+      display: flex;
+      flex-direction: column;
       min-height: 84px;
       padding: 12px;
       border: 1px solid var(--line);
       border-radius: var(--radius);
       background: #fff;
       color: var(--text);
+      text-decoration: none;
+      transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+    }
+    .resource-card:hover {
+      border-color: var(--accent-line);
+      box-shadow: 0 10px 24px rgba(0, 153, 127, 0.1);
+      transform: translateY(-1px);
+      text-decoration: none;
     }
     .resource-card strong {
       display: block;
@@ -500,6 +493,14 @@
       color: var(--muted);
       font-size: 12px;
       line-height: 1.5;
+    }
+    .resource-card em {
+      margin-top: auto;
+      padding-top: 10px;
+      color: var(--accent-dark);
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 760;
     }
     .template-box {
       display: grid;

@@ -280,11 +280,471 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "对于微信公众号文章来说，适度的标题党是必要的，好的标题是文章成功的一大半，差的标题注定要凉凉"
+                  "text": "对于微信公众号文章来说，适度的标题党是必要的，好的标题是文章成功的一大半，差的标题注定要凉凉。"
+                },
+                {
+                  "type": "heading",
+                  "text": "基本原则："
                 },
                 {
                   "type": "p",
-                  "text": "[如何起标题](https://jkhbjkhb.feishu.cn/wiki/PocpwVctSiQjgTkW47WcH6RJn6d)"
+                  "text": "**让读者有点开看的兴趣**"
+                },
+                {
+                  "type": "heading",
+                  "text": "取标题方法论："
+                },
+                {
+                  "type": "li",
+                  "text": "**重点要前置**"
+                },
+                {
+                  "type": "li",
+                  "text": "**短句比长句好**"
+                },
+                {
+                  "type": "li",
+                  "text": "**有情绪比没情绪好**"
+                },
+                {
+                  "type": "li",
+                  "text": "**有反差比没反差好****（有反差的两个关键词尽量接近）**"
+                },
+                {
+                  "type": "li",
+                  "text": "**有背书比没背书好**"
+                },
+                {
+                  "type": "li",
+                  "text": "**有具体数据比含糊其辞好**"
+                },
+                {
+                  "type": "li",
+                  "text": "**肯定句比问句好**"
+                },
+                {
+                  "type": "p",
+                  "text": "这是GPT\\-4分析了我们2023年1\\-9月份阅读量\\>5w的稿件后，总结出的规律，可以参考帮助理解以上要点"
+                },
+                {
+                  "type": "p",
+                  "text": "关键词：有冲击力，吸引眼球，增强可信度"
+                },
+                {
+                  "type": "p",
+                  "text": "![Image](https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=MDVmOTVlZDNhZjMyNzBlYjM5ZTg5NTQ2ODk0MjdiOGZfMGJjYjQ5ODNiNDgxODIxYTE0YmExZGU1ZTk5MDA0MjdfSUQ6NzI4MTQ3OTE3ODc3OTczODExNl8xNzgxMTU5NjI0OjE3ODEyNDYwMjRfVjM)"
+                },
+                {
+                  "type": "subheading",
+                  "text": "重点前置"
+                },
+                {
+                  "type": "p",
+                  "text": "成功案例："
+                },
+                {
+                  "type": "p",
+                  "text": "斯坦福团队被曝抄袭清华系大模型，已删库跑路，创始人回应：也算国际认可"
+                },
+                {
+                  "type": "p",
+                  "text": "马斯克怒斥苹果接入ChatGPT：真敢集成就在全公司禁用"
+                },
+                {
+                  "type": "subheading",
+                  "text": "短句比长句好"
+                },
+                {
+                  "type": "p",
+                  "text": "失败案例："
+                },
+                {
+                  "type": "p",
+                  "text": "比Meta「分割一切AI」更早实现交互式开集分割！港科大开放词表分割大法入选ICCV 2023"
+                },
+                {
+                  "type": "p",
+                  "text": "改：比Meta「分割一切AI」更早！港科大分割大法入选ICCV 2023"
+                },
+                {
+                  "type": "subheading",
+                  "text": "有情绪比没情绪好"
+                },
+                {
+                  "type": "p",
+                  "text": "成功案例："
+                },
+                {
+                  "type": "p",
+                  "text": "首个AI软件工程师震撼硅谷！手握10块IOI金牌，他们铁了心砸掉程序员饭碗"
+                },
+                {
+                  "type": "p",
+                  "text": "“计算机视觉女神”被IEEE期刊封杀"
+                },
+                {
+                  "type": "p",
+                  "text": "OpenAI公关跳起来捂他嘴：Transformer作者公开承认参与Q\\*\\! \\| 八位作者最新专访"
+                },
+                {
+                  "type": "p",
+                  "text": "可优化案例："
+                },
+                {
+                  "type": "p",
+                  "text": "推理小说家用ChatGPT生成谋杀案情节，已出版26本小说，网友：AI惠普人类绝佳例子"
+                },
+                {
+                  "type": "p",
+                  "text": "改：ChatGPT代笔推理小说：谋杀破案剧情一气呵成，已瞒天过海出版26部，封面也拿DALL·E画"
+                },
+                {
+                  "type": "subheading",
+                  "text": "有反差比没反差好"
+                },
+                {
+                  "type": "p",
+                  "text": "成功案例："
+                },
+                {
+                  "type": "p",
+                  "text": "弱智吧竟成最佳中文AI训练数据？！中科院等：8项测试第一，远超知乎豆瓣小红书"
+                },
+                {
+                  "type": "p",
+                  "text": "自称「民科」却发顶刊一作，知乎自曝经历后彻底火了"
+                },
+                {
+                  "type": "subheading",
+                  "text": "有背书比没背书好"
+                },
+                {
+                  "type": "p",
+                  "text": "成功案例："
+                },
+                {
+                  "type": "p",
+                  "text": "陶哲轩力荐，哈佛反向学习法火了：教会AI就是教会自己"
+                },
+                {
+                  "type": "p",
+                  "text": "贾扬清：大模型尺寸正在重走CNN的老路；马斯克：在特斯拉也是这样"
+                },
+                {
+                  "type": "subheading",
+                  "text": "有具体数据比含糊其辞好"
+                },
+                {
+                  "type": "p",
+                  "text": "成功案例："
+                },
+                {
+                  "type": "p",
+                  "text": "AI在劳动节淘汰7800打工人，永久的"
+                },
+                {
+                  "type": "p",
+                  "text": "烧了微软10000张GPU，这伙人铁了心要砸大家的饭碗"
+                },
+                {
+                  "type": "p",
+                  "text": "ChatGPT救命！4岁男孩3年求医17位专家无果，大模型精准揪出病因"
+                },
+                {
+                  "type": "subheading",
+                  "text": "肯定句比问句好"
+                },
+                {
+                  "type": "p",
+                  "text": "（肯定句显得结论明确，观点突出，在观感上会增加文章的阅读价值和可信度）"
+                },
+                {
+                  "type": "heading",
+                  "text": "常见技巧"
+                },
+                {
+                  "type": "subheading",
+                  "text": "1）一句话概括事件主题 + 事件精彩细节"
+                },
+                {
+                  "type": "p",
+                  "text": "【适用于劲爆新闻】"
+                },
+                {
+                  "type": "p",
+                  "text": "例子："
+                },
+                {
+                  "type": "p",
+                  "text": "韦东奕论文登数学顶刊，将散焦方程的爆破性研究扩展至d≥4"
+                },
+                {
+                  "type": "p",
+                  "text": "苹果炮轰推理模型全是假思考！4个游戏戳破神话，o3/DeepSeek高难度全崩溃"
+                },
+                {
+                  "type": "p",
+                  "text": "OpenAI一夜颠覆AI绘画！DALL·E 3\\+ChatGPT强强联合，画面直接细节爆炸"
+                },
+                {
+                  "type": "subheading",
+                  "text": "2）列关键词，找到最吸睛的组合方式"
+                },
+                {
+                  "type": "p",
+                  "text": "【适用于亮点比较多 or 亮点不突出的选题】"
+                },
+                {
+                  "type": "p",
+                  "text": "例子："
+                },
+                {
+                  "type": "p",
+                  "text": "苹果全新iPhone首发3nm自研芯片，结果“华为发布会”冲上热搜第一…"
+                },
+                {
+                  "type": "p",
+                  "text": "ChatGPT救命！4岁男孩3年求医17位专家无果，大模型精准揪出病因"
+                },
+                {
+                  "type": "subheading",
+                  "text": "3）引用大佬原话 or 网友感慨，输出观点"
+                },
+                {
+                  "type": "p",
+                  "text": "例子："
+                },
+                {
+                  "type": "p",
+                  "text": "传奇大神何恺明被曝回归学界，网友：要成全MIT引用最高的人了"
+                },
+                {
+                  "type": "p",
+                  "text": "黄仁勋管理万亿英伟达的疯狂方法：没有计划、没有汇报、没有层级"
+                },
+                {
+                  "type": "p",
+                  "text": "马斯克：今晚笼中决斗，我开特斯拉去小扎家，敢开门就直播"
+                },
+                {
+                  "type": "p",
+                  "text": "陶哲轩自曝用了「满血」GPT\\-4：人类对信息技术的期待全部需要校准"
+                },
+                {
+                  "type": "subheading",
+                  "text": "4）营造冲突感、戏剧性、反差感"
+                },
+                {
+                  "type": "p",
+                  "text": "例子："
+                },
+                {
+                  "type": "p",
+                  "text": "6分钟狂掉750亿市值！苹果发布会发啥了…"
+                },
+                {
+                  "type": "p",
+                  "text": "DeepSeek\\-R1今天一次「小更新」，颠覆了大模型格局，网友：尽快放R2"
+                },
+                {
+                  "type": "p",
+                  "text": "3个搞物理的颠覆了数学常识，数学天才陶哲轩：我开始压根不相信"
+                },
+                {
+                  "type": "subheading",
+                  "text": "5）带情绪、带倾向性的概括性表达"
+                },
+                {
+                  "type": "p",
+                  "text": "例子："
+                },
+                {
+                  "type": "p",
+                  "text": "第一批AIGC独角兽开始裁员了"
+                },
+                {
+                  "type": "p",
+                  "text": "AI在劳动节淘汰7800打工人，永久的"
+                },
+                {
+                  "type": "p",
+                  "text": "国产大模型已无公司可投"
+                },
+                {
+                  "type": "p",
+                  "text": "美团把AI搞出一团烟火气"
+                },
+                {
+                  "type": "subheading",
+                  "text": "6）第一人称/第二人称代入感，地域亲近感"
+                },
+                {
+                  "type": "p",
+                  "text": "例子："
+                },
+                {
+                  "type": "p",
+                  "text": "我，看房没戴头盔，损失二十万"
+                },
+                {
+                  "type": "p",
+                  "text": "我，爆肝17天用600行代码拍到400公里之外的国际空间站"
+                },
+                {
+                  "type": "p",
+                  "text": "杭州市民日常黑科技，看呆亚运会上歪果仁"
+                },
+                {
+                  "type": "subheading",
+                  "text": "7) 剑走偏锋，正话反说"
+                },
+                {
+                  "type": "p",
+                  "text": "例子："
+                },
+                {
+                  "type": "p",
+                  "text": "扒一扒腾讯混元大模型“老底”"
+                },
+                {
+                  "type": "heading",
+                  "text": "别这么干"
+                },
+                {
+                  "type": "subheading",
+                  "text": "1）不要用一口气读不完的长难句"
+                },
+                {
+                  "type": "p",
+                  "text": "比Meta「分割一切AI」更早实现交互式开集分割！港科大开放词表分割大法入选ICCV 2023"
+                },
+                {
+                  "type": "p",
+                  "text": "改：比Meta「分割一切AI」更早！港科大分割大法入选ICCV 2023"
+                },
+                {
+                  "type": "subheading",
+                  "text": "2）不要浪费前半段标题，核心亮点提前"
+                },
+                {
+                  "type": "p",
+                  "text": "边喷火边跳踢踏舞，机器狗最新技能爆火全网！网友直呼真·热狗"
+                },
+                {
+                  "type": "subheading",
+                  "text": "3）避免一看便知全文且无趣/灭嗨的标题"
+                },
+                {
+                  "type": "p",
+                  "text": "反面案例："
+                },
+                {
+                  "type": "p",
+                  "text": "社交媒体和arXiv存在，让双盲评审形同虚设 \\| Reddit热议"
+                },
+                {
+                  "type": "p",
+                  "text": "正面案例："
+                },
+                {
+                  "type": "p",
+                  "text": "推特知乎宣传一波，论文就能中顶会？时代变了，说不定真的可以（机器之心）"
+                },
+                {
+                  "type": "p",
+                  "text": "核心问题：标题已经把整件事都讲完了，让人觉得没有点开的必要"
+                },
+                {
+                  "type": "p",
+                  "text": "反面案例："
+                },
+                {
+                  "type": "p",
+                  "text": "Nature：为啥室温超导支棱不起来"
+                },
+                {
+                  "type": "subheading",
+                  "text": "4）避免出现太多生僻词"
+                },
+                {
+                  "type": "p",
+                  "text": "反面案例："
+                },
+                {
+                  "type": "p",
+                  "text": "GPT\\-4也难逃“反转诅咒”！新研究发现：大模型存在推理缺陷，知道“A是B”推不出“B是A”"
+                },
+                {
+                  "type": "p",
+                  "text": "正面案例："
+                },
+                {
+                  "type": "p",
+                  "text": "烧了微软10000张GPU，这伙人铁了心要砸大家的饭碗"
+                },
+                {
+                  "type": "p",
+                  "text": "（当时GPT\\-3刚出，GPT本身在大众层面还不是热词）"
+                },
+                {
+                  "type": "p",
+                  "text": "核心问题：需要解释的信息太多，专有名词、代词对大众来说很陌生"
+                },
+                {
+                  "type": "subheading",
+                  "text": "5）避免公关通稿式标题，不要用互联网黑话"
+                },
+                {
+                  "type": "p",
+                  "text": "反面案例："
+                },
+                {
+                  "type": "p",
+                  "text": "雷军牵手王小川，在大模型时代复刻小米移动互联网打法"
+                },
+                {
+                  "type": "subheading",
+                  "text": "6）不要亲自下场对某项研究做过分、方向偏差的定性"
+                },
+                {
+                  "type": "p",
+                  "text": "反面案例："
+                },
+                {
+                  "type": "p",
+                  "text": "东南大学全球首测LK\\-99零电阻成功！室温超导复现大爆发，人类历史接近跃迁点"
+                },
+                {
+                  "type": "subheading",
+                  "text": "7）不要太文艺，小情小调要慎重"
+                },
+                {
+                  "type": "p",
+                  "text": "（玩梗要玩大众梗）"
+                },
+                {
+                  "type": "p",
+                  "text": "案例："
+                },
+                {
+                  "type": "p",
+                  "text": "身患渐冻症的他靠自学数学考上MIT，哈佛加州理工也发来offer，网友：他是决心冲破泥瓦的种子"
+                },
+                {
+                  "type": "subheading",
+                  "text": "8）避免文不对题"
+                },
+                {
+                  "type": "p",
+                  "text": "标题里的信息正文都要提及。听取其他老师建议大改标题后尤其需要注意。"
+                },
+                {
+                  "type": "heading",
+                  "text": "其他注意事项"
+                },
+                {
+                  "type": "li",
+                  "text": "不要用奇怪的符号（如【】、\\[\\]等），尽量不用顿号（占位置）"
                 }
               ]
             }
@@ -910,11 +1370,471 @@
           "body": [
             {
               "type": "p",
-              "text": "对于微信公众号文章来说，适度的标题党是必要的，好的标题是文章成功的一大半，差的标题注定要凉凉"
+              "text": "对于微信公众号文章来说，适度的标题党是必要的，好的标题是文章成功的一大半，差的标题注定要凉凉。"
+            },
+            {
+              "type": "heading",
+              "text": "基本原则："
             },
             {
               "type": "p",
-              "text": "[如何起标题](https://jkhbjkhb.feishu.cn/wiki/PocpwVctSiQjgTkW47WcH6RJn6d)"
+              "text": "**让读者有点开看的兴趣**"
+            },
+            {
+              "type": "heading",
+              "text": "取标题方法论："
+            },
+            {
+              "type": "li",
+              "text": "**重点要前置**"
+            },
+            {
+              "type": "li",
+              "text": "**短句比长句好**"
+            },
+            {
+              "type": "li",
+              "text": "**有情绪比没情绪好**"
+            },
+            {
+              "type": "li",
+              "text": "**有反差比没反差好****（有反差的两个关键词尽量接近）**"
+            },
+            {
+              "type": "li",
+              "text": "**有背书比没背书好**"
+            },
+            {
+              "type": "li",
+              "text": "**有具体数据比含糊其辞好**"
+            },
+            {
+              "type": "li",
+              "text": "**肯定句比问句好**"
+            },
+            {
+              "type": "p",
+              "text": "这是GPT\\-4分析了我们2023年1\\-9月份阅读量\\>5w的稿件后，总结出的规律，可以参考帮助理解以上要点"
+            },
+            {
+              "type": "p",
+              "text": "关键词：有冲击力，吸引眼球，增强可信度"
+            },
+            {
+              "type": "p",
+              "text": "![Image](https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=MDVmOTVlZDNhZjMyNzBlYjM5ZTg5NTQ2ODk0MjdiOGZfMGJjYjQ5ODNiNDgxODIxYTE0YmExZGU1ZTk5MDA0MjdfSUQ6NzI4MTQ3OTE3ODc3OTczODExNl8xNzgxMTU5NjI0OjE3ODEyNDYwMjRfVjM)"
+            },
+            {
+              "type": "subheading",
+              "text": "重点前置"
+            },
+            {
+              "type": "p",
+              "text": "成功案例："
+            },
+            {
+              "type": "p",
+              "text": "斯坦福团队被曝抄袭清华系大模型，已删库跑路，创始人回应：也算国际认可"
+            },
+            {
+              "type": "p",
+              "text": "马斯克怒斥苹果接入ChatGPT：真敢集成就在全公司禁用"
+            },
+            {
+              "type": "subheading",
+              "text": "短句比长句好"
+            },
+            {
+              "type": "p",
+              "text": "失败案例："
+            },
+            {
+              "type": "p",
+              "text": "比Meta「分割一切AI」更早实现交互式开集分割！港科大开放词表分割大法入选ICCV 2023"
+            },
+            {
+              "type": "p",
+              "text": "改：比Meta「分割一切AI」更早！港科大分割大法入选ICCV 2023"
+            },
+            {
+              "type": "subheading",
+              "text": "有情绪比没情绪好"
+            },
+            {
+              "type": "p",
+              "text": "成功案例："
+            },
+            {
+              "type": "p",
+              "text": "首个AI软件工程师震撼硅谷！手握10块IOI金牌，他们铁了心砸掉程序员饭碗"
+            },
+            {
+              "type": "p",
+              "text": "“计算机视觉女神”被IEEE期刊封杀"
+            },
+            {
+              "type": "p",
+              "text": "OpenAI公关跳起来捂他嘴：Transformer作者公开承认参与Q\\*\\! \\| 八位作者最新专访"
+            },
+            {
+              "type": "p",
+              "text": "可优化案例："
+            },
+            {
+              "type": "p",
+              "text": "推理小说家用ChatGPT生成谋杀案情节，已出版26本小说，网友：AI惠普人类绝佳例子"
+            },
+            {
+              "type": "p",
+              "text": "改：ChatGPT代笔推理小说：谋杀破案剧情一气呵成，已瞒天过海出版26部，封面也拿DALL·E画"
+            },
+            {
+              "type": "subheading",
+              "text": "有反差比没反差好"
+            },
+            {
+              "type": "p",
+              "text": "成功案例："
+            },
+            {
+              "type": "p",
+              "text": "弱智吧竟成最佳中文AI训练数据？！中科院等：8项测试第一，远超知乎豆瓣小红书"
+            },
+            {
+              "type": "p",
+              "text": "自称「民科」却发顶刊一作，知乎自曝经历后彻底火了"
+            },
+            {
+              "type": "subheading",
+              "text": "有背书比没背书好"
+            },
+            {
+              "type": "p",
+              "text": "成功案例："
+            },
+            {
+              "type": "p",
+              "text": "陶哲轩力荐，哈佛反向学习法火了：教会AI就是教会自己"
+            },
+            {
+              "type": "p",
+              "text": "贾扬清：大模型尺寸正在重走CNN的老路；马斯克：在特斯拉也是这样"
+            },
+            {
+              "type": "subheading",
+              "text": "有具体数据比含糊其辞好"
+            },
+            {
+              "type": "p",
+              "text": "成功案例："
+            },
+            {
+              "type": "p",
+              "text": "AI在劳动节淘汰7800打工人，永久的"
+            },
+            {
+              "type": "p",
+              "text": "烧了微软10000张GPU，这伙人铁了心要砸大家的饭碗"
+            },
+            {
+              "type": "p",
+              "text": "ChatGPT救命！4岁男孩3年求医17位专家无果，大模型精准揪出病因"
+            },
+            {
+              "type": "subheading",
+              "text": "肯定句比问句好"
+            },
+            {
+              "type": "p",
+              "text": "（肯定句显得结论明确，观点突出，在观感上会增加文章的阅读价值和可信度）"
+            },
+            {
+              "type": "heading",
+              "text": "常见技巧"
+            },
+            {
+              "type": "subheading",
+              "text": "1）一句话概括事件主题 + 事件精彩细节"
+            },
+            {
+              "type": "p",
+              "text": "【适用于劲爆新闻】"
+            },
+            {
+              "type": "p",
+              "text": "例子："
+            },
+            {
+              "type": "p",
+              "text": "韦东奕论文登数学顶刊，将散焦方程的爆破性研究扩展至d≥4"
+            },
+            {
+              "type": "p",
+              "text": "苹果炮轰推理模型全是假思考！4个游戏戳破神话，o3/DeepSeek高难度全崩溃"
+            },
+            {
+              "type": "p",
+              "text": "OpenAI一夜颠覆AI绘画！DALL·E 3\\+ChatGPT强强联合，画面直接细节爆炸"
+            },
+            {
+              "type": "subheading",
+              "text": "2）列关键词，找到最吸睛的组合方式"
+            },
+            {
+              "type": "p",
+              "text": "【适用于亮点比较多 or 亮点不突出的选题】"
+            },
+            {
+              "type": "p",
+              "text": "例子："
+            },
+            {
+              "type": "p",
+              "text": "苹果全新iPhone首发3nm自研芯片，结果“华为发布会”冲上热搜第一…"
+            },
+            {
+              "type": "p",
+              "text": "ChatGPT救命！4岁男孩3年求医17位专家无果，大模型精准揪出病因"
+            },
+            {
+              "type": "subheading",
+              "text": "3）引用大佬原话 or 网友感慨，输出观点"
+            },
+            {
+              "type": "p",
+              "text": "例子："
+            },
+            {
+              "type": "p",
+              "text": "传奇大神何恺明被曝回归学界，网友：要成全MIT引用最高的人了"
+            },
+            {
+              "type": "p",
+              "text": "黄仁勋管理万亿英伟达的疯狂方法：没有计划、没有汇报、没有层级"
+            },
+            {
+              "type": "p",
+              "text": "马斯克：今晚笼中决斗，我开特斯拉去小扎家，敢开门就直播"
+            },
+            {
+              "type": "p",
+              "text": "陶哲轩自曝用了「满血」GPT\\-4：人类对信息技术的期待全部需要校准"
+            },
+            {
+              "type": "subheading",
+              "text": "4）营造冲突感、戏剧性、反差感"
+            },
+            {
+              "type": "p",
+              "text": "例子："
+            },
+            {
+              "type": "p",
+              "text": "6分钟狂掉750亿市值！苹果发布会发啥了…"
+            },
+            {
+              "type": "p",
+              "text": "DeepSeek\\-R1今天一次「小更新」，颠覆了大模型格局，网友：尽快放R2"
+            },
+            {
+              "type": "p",
+              "text": "3个搞物理的颠覆了数学常识，数学天才陶哲轩：我开始压根不相信"
+            },
+            {
+              "type": "subheading",
+              "text": "5）带情绪、带倾向性的概括性表达"
+            },
+            {
+              "type": "p",
+              "text": "例子："
+            },
+            {
+              "type": "p",
+              "text": "第一批AIGC独角兽开始裁员了"
+            },
+            {
+              "type": "p",
+              "text": "AI在劳动节淘汰7800打工人，永久的"
+            },
+            {
+              "type": "p",
+              "text": "国产大模型已无公司可投"
+            },
+            {
+              "type": "p",
+              "text": "美团把AI搞出一团烟火气"
+            },
+            {
+              "type": "subheading",
+              "text": "6）第一人称/第二人称代入感，地域亲近感"
+            },
+            {
+              "type": "p",
+              "text": "例子："
+            },
+            {
+              "type": "p",
+              "text": "我，看房没戴头盔，损失二十万"
+            },
+            {
+              "type": "p",
+              "text": "我，爆肝17天用600行代码拍到400公里之外的国际空间站"
+            },
+            {
+              "type": "p",
+              "text": "杭州市民日常黑科技，看呆亚运会上歪果仁"
+            },
+            {
+              "type": "subheading",
+              "text": "7) 剑走偏锋，正话反说"
+            },
+            {
+              "type": "p",
+              "text": "例子："
+            },
+            {
+              "type": "p",
+              "text": "扒一扒腾讯混元大模型“老底”"
+            },
+            {
+              "type": "heading",
+              "text": "别这么干"
+            },
+            {
+              "type": "subheading",
+              "text": "1）不要用一口气读不完的长难句"
+            },
+            {
+              "type": "p",
+              "text": "比Meta「分割一切AI」更早实现交互式开集分割！港科大开放词表分割大法入选ICCV 2023"
+            },
+            {
+              "type": "p",
+              "text": "改：比Meta「分割一切AI」更早！港科大分割大法入选ICCV 2023"
+            },
+            {
+              "type": "subheading",
+              "text": "2）不要浪费前半段标题，核心亮点提前"
+            },
+            {
+              "type": "p",
+              "text": "边喷火边跳踢踏舞，机器狗最新技能爆火全网！网友直呼真·热狗"
+            },
+            {
+              "type": "subheading",
+              "text": "3）避免一看便知全文且无趣/灭嗨的标题"
+            },
+            {
+              "type": "p",
+              "text": "反面案例："
+            },
+            {
+              "type": "p",
+              "text": "社交媒体和arXiv存在，让双盲评审形同虚设 \\| Reddit热议"
+            },
+            {
+              "type": "p",
+              "text": "正面案例："
+            },
+            {
+              "type": "p",
+              "text": "推特知乎宣传一波，论文就能中顶会？时代变了，说不定真的可以（机器之心）"
+            },
+            {
+              "type": "p",
+              "text": "核心问题：标题已经把整件事都讲完了，让人觉得没有点开的必要"
+            },
+            {
+              "type": "p",
+              "text": "反面案例："
+            },
+            {
+              "type": "p",
+              "text": "Nature：为啥室温超导支棱不起来"
+            },
+            {
+              "type": "subheading",
+              "text": "4）避免出现太多生僻词"
+            },
+            {
+              "type": "p",
+              "text": "反面案例："
+            },
+            {
+              "type": "p",
+              "text": "GPT\\-4也难逃“反转诅咒”！新研究发现：大模型存在推理缺陷，知道“A是B”推不出“B是A”"
+            },
+            {
+              "type": "p",
+              "text": "正面案例："
+            },
+            {
+              "type": "p",
+              "text": "烧了微软10000张GPU，这伙人铁了心要砸大家的饭碗"
+            },
+            {
+              "type": "p",
+              "text": "（当时GPT\\-3刚出，GPT本身在大众层面还不是热词）"
+            },
+            {
+              "type": "p",
+              "text": "核心问题：需要解释的信息太多，专有名词、代词对大众来说很陌生"
+            },
+            {
+              "type": "subheading",
+              "text": "5）避免公关通稿式标题，不要用互联网黑话"
+            },
+            {
+              "type": "p",
+              "text": "反面案例："
+            },
+            {
+              "type": "p",
+              "text": "雷军牵手王小川，在大模型时代复刻小米移动互联网打法"
+            },
+            {
+              "type": "subheading",
+              "text": "6）不要亲自下场对某项研究做过分、方向偏差的定性"
+            },
+            {
+              "type": "p",
+              "text": "反面案例："
+            },
+            {
+              "type": "p",
+              "text": "东南大学全球首测LK\\-99零电阻成功！室温超导复现大爆发，人类历史接近跃迁点"
+            },
+            {
+              "type": "subheading",
+              "text": "7）不要太文艺，小情小调要慎重"
+            },
+            {
+              "type": "p",
+              "text": "（玩梗要玩大众梗）"
+            },
+            {
+              "type": "p",
+              "text": "案例："
+            },
+            {
+              "type": "p",
+              "text": "身患渐冻症的他靠自学数学考上MIT，哈佛加州理工也发来offer，网友：他是决心冲破泥瓦的种子"
+            },
+            {
+              "type": "subheading",
+              "text": "8）避免文不对题"
+            },
+            {
+              "type": "p",
+              "text": "标题里的信息正文都要提及。听取其他老师建议大改标题后尤其需要注意。"
+            },
+            {
+              "type": "heading",
+              "text": "其他注意事项"
+            },
+            {
+              "type": "li",
+              "text": "不要用奇怪的符号（如【】、\\[\\]等），尽量不用顿号（占位置）"
             }
           ]
         }
@@ -1908,11 +2828,11 @@
     ]
   },
   "outlineTemplate": "标题方向：\nXXXX\n\n## 开头\n1、重点信息1\n2、重点信息2\n3、重点信息3\n\n## 第一个小标题\n1、具体内容1\n2、具体内容2\n3、具体内容3\n\n## 第二个小标题\n4、具体内容4\n5、具体内容5\n6、具体内容6",
-  "sourceStamp": "2026-06-10",
+  "sourceStamp": "2026-06-11",
   "stats": {
     "sections": 2,
     "modules": 6,
-    "words": 4524
+    "words": 13484
   },
   "sourceDocument": "编辑部新手攻略（2023，更新中）.md",
   "heroFocus": [
@@ -1935,19 +2855,23 @@
   "resources": [
     {
       "title": "AI 基础资料",
-      "description": "资料篇、知识要点篇与李宏毅机器学习"
+      "description": "资料篇、知识要点篇与李宏毅机器学习",
+      "url": "https://jkhbjkhb.feishu.cn/docx/doxcnqXhYmpGPST6K9T5mOk87zf"
     },
     {
       "title": "阅读书目",
-      "description": "人工智能简史、人工智能等入门书"
+      "description": "人工智能简史、人工智能等入门书",
+      "url": "https://jkhbjkhb.feishu.cn/docx/doxcnA2t13dVuwM3cl2iNC50VCB"
     },
     {
       "title": "编辑指南",
-      "description": "工具配置、贴稿和日常协作规范"
+      "description": "工具配置、贴稿和日常协作规范",
+      "url": "https://jkhbjkhb.feishu.cn/docx/doxcntq3TsD96LHTH99MD74Morb?from=from_copylink"
     },
     {
       "title": "知识库首页",
-      "description": "更多内部学习资料与规范沉淀"
+      "description": "更多内部学习资料与规范沉淀",
+      "url": "https://jkhbjkhb.feishu.cn/wiki/wikcnT4LIVFJC1xipWCER9Hkpkf"
     }
   ]
 }

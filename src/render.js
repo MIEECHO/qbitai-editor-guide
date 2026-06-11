@@ -11,9 +11,6 @@ const els = {
   toc: document.getElementById("toc"),
   checklist: document.getElementById("checklist"),
   resources: document.getElementById("resources"),
-  progressValue: document.getElementById("progressValue"),
-  progressFill: document.getElementById("progressFill"),
-  progressNote: document.getElementById("progressNote"),
   searchInput: document.getElementById("searchInput"),
   toast: document.getElementById("toast"),
 };
@@ -55,7 +52,13 @@ function renderText(items = []) {
     }
 
     flushList();
-    html += `<p>${markdownInline(item.text)}</p>`;
+    if (item.type === "heading") {
+      html += `<h3 class="content-heading">${markdownInline(item.text)}</h3>`;
+    } else if (item.type === "subheading") {
+      html += `<h4 class="content-subheading">${markdownInline(item.text)}</h4>`;
+    } else {
+      html += `<p>${markdownInline(item.text)}</p>`;
+    }
   }
 
   flushList();
@@ -184,32 +187,27 @@ function renderChecklist(data) {
     });
     els.checklist.appendChild(label);
   });
-
-  updateProgress(data);
 }
 
 function renderResources(data) {
   els.resources.innerHTML = "";
   data.resources.forEach((resource) => {
-    const card = document.createElement("div");
+    const card = document.createElement("a");
     card.className = "resource-card";
-    card.innerHTML = `<strong>${escapeHtml(resource.title)}</strong><span>${escapeHtml(resource.description)}</span>`;
+    card.href = resource.url;
+    card.target = "_blank";
+    card.rel = "noreferrer";
+    card.innerHTML = `
+      <strong>${escapeHtml(resource.title)}</strong>
+      <span>${escapeHtml(resource.description)}</span>
+      <em>打开 →</em>
+    `;
     els.resources.appendChild(card);
   });
 }
 
 function saveChecks(data) {
   localStorage.setItem(storageKey, JSON.stringify([...state.checked]));
-  updateProgress(data);
-}
-
-function updateProgress(data) {
-  const total = data.checkItems.length;
-  const done = state.checked.size;
-  const pct = total ? Math.round((done / total) * 100) : 0;
-  els.progressValue.textContent = `${pct}%`;
-  els.progressFill.style.width = `${pct}%`;
-  els.progressNote.textContent = `完成 ${done} / ${total} 项`;
 }
 
 function showToast(message) {
